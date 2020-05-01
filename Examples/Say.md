@@ -1,5 +1,7 @@
 ## Say
 
+> [🧳 Download Suitcase](https://github.com/Impedimenta/Suitcase/releases)
+
 This is a very simple example, creating a single button that triggers the [`say`](x-man-page://say) command.
 
 ### Command
@@ -28,3 +30,5 @@ Set the type of control. In this example we are creating a button. Valid control
     --control-action="/usr/bin/say Hello World!"
     
 Define the Control Action attached to the button. This action calls the [`say`](x-man-page://say) command and uses an inline parameter of `Hello World!`. Note command locations need to be referenced absolutely. Suitcase *does not* search the `PATH` environment variable.
+
+> [🧳 Download Suitcase](https://github.com/Impedimenta/Suitcase/releases)

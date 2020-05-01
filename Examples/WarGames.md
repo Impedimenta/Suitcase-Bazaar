@@ -1,5 +1,7 @@
 ## War Games
 
+> [🧳 Download Suitcase](https://github.com/Impedimenta/Suitcase/releases)
+
 This command builds upon the [Say example](./Say.md), by adding multiple buttons, action parameters and a `text-field` control.
 
 The user can enter text into a `text-field` control and choose what voice is used to speak the string.
@@ -62,3 +64,5 @@ In this control's action declaration, the parameters are specified in the `--con
 One of the parameters listed is the control identifier (`--control-identifier`) from the `text-field` declaration. This will be substituted for the value of the `text-field` before being passed to the [`say`](x-man-page://say) command.
 
 The `-v Daniel` parameters select the voice used to speak the text.
+
+> [🧳 Download Suitcase](https://github.com/Impedimenta/Suitcase/releases)
