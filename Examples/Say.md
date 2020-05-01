@@ -1,8 +1,8 @@
-# Say
+## Say
 
 This is a very simple example, creating a single button that triggers the [`say`](x-man-page://say) command.
 
-## Command
+### Command
 
 ```bash
 $ Suitcase --name="Say Example" \
@@ -11,7 +11,7 @@ $ Suitcase --name="Say Example" \
     --control-action="/usr/bin/say Hello World!"
 ```
 
-## Explanation
+### Explanation
 
     --name="Say Example"
     
