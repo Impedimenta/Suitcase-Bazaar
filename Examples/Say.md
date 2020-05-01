@@ -15,7 +15,7 @@ $ Suitcase --name="Say Example" \
 
     --name="Say Example"
     
-Set's the name of the running Suitcase, this is also used for the main window title if `--window-title`  is not set.
+Sets the name of the running Suitcase, this is also used for the main window title if `--window-title` is not set.
 
     --control-title="Speak"
     
