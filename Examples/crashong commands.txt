@@ -1,0 +1,130 @@
+
+
+sh -c 'swift run --package-path "/Volumes/Projects/Suitcase/Projects/Suitcase/" Suitcase \
+--name="Hidden Finder Settings" --window-title="Hidden Finder Settings" \
+--control-title="Hidden Files & Folders:" \
+--control-group-identifier="com.finder.hidden" \
+--control-type="label" \
+--control-title="unknown" \
+--control-group-identifier="com.finder.hidden" \
+--control-type="label" \
+--control-identifier="com.label.hidden.state" \
+--control-title=" 🔄 " \
+--control-group-identifier="com.finder.hidden" \
+--control-type="button" \
+--control-action="/usr/bin/defaults read com.apple.finder AppleShowAllFiles | /usr/bin/sed s/1/🟢Visable/g;s/0/🔴Hidden/g" \
+--control-action-destination="com.label.hidden.state" \
+--control-title="Enable" \
+--control-type="button" \
+--control-group-identifier="com.finder.hidden.buttons" \
+--control-action="/usr/bin/defaults write com.apple.finder AppleShowAllFiles -bool TRUE & /usr/bin/killall Finder" \
+--control-title="Disable" \
+--control-type="button" \
+--control-group-identifier="com.finder.hidden.buttons" \
+--control-action="/usr/bin/defaults write com.apple.finder AppleShowAllFiles -bool FALSE & /usr/bin/killall Finder"'
+
+
+swift run --package-path /Volumes/Projects/Suitcase/Projects/Suitcase/ Suitcase --name="Hidden Finder Settings" --window-title=Hidden Finder Settings --control-title="Hidden Files & Folders:" --control-group-identifier=com.finder.hidden --control-type=label --control-title=unknown --control-group-identifier=com.finder.hidden --control-type=label --control-identifier=com.label.hidden.state --control-title= 🔄  --control-group-identifier=com.finder.hidden --control-type=button --control-action="/usr/bin/defaults read com.apple.finder AppleShowAllFiles | /usr/bin/sed s/1/🟢Visable/g;s/0/🔴Hidden/g" --control-action-destination=com.label.hidden.state --control-title=Enable --control-type=button --control-group-identifier=com.finder.hidden.buttons --control-action=/usr/bin/defaults write com.apple.finder AppleShowAllFiles -bool TRUE & /usr/bin/killall Finder --control-title=Disable --control-type=button --control-group-identifier=com.finder.hidden.buttons --control-action="/usr/bin/defaults write com.apple.finder AppleShowAllFiles -bool FALSE & /usr/bin/killall Finder"
+
+
+swift run --package-path "/Volumes/Projects/Suitcase/" Suitcase \
+--name="Hidden Finder Settings" --window-title="Hidden Finder Settings" \
+--control-title="Hidden Files & Folders:" \
+--control-group-identifier="com.finder.hidden" \
+--control-type="label" \
+--control-title="unknown" \
+--control-group-identifier="com.finder.hidden" \
+--control-type="label" \
+--control-identifier="com.label.hidden.state" \
+--control-title=" 🔄 " \
+--control-group-identifier="com.finder.hidden" \
+--control-type="button" \
+--control-action="/usr/bin/defaults read com.apple.finder AppleShowAllFiles | /usr/bin/sed s/1/🟢Visable/g;s/0/🔴Hidden/g" \
+--control-action-destination="com.label.hidden.state" \
+--control-title="Enable" \
+--control-type="button" \
+--control-group-identifier="com.finder.hidden.buttons" \
+--control-action="/usr/bin/defaults write com.apple.finder AppleShowAllFiles -bool TRUE & /usr/bin/killall Finder" \
+--control-title="Disable" \
+--control-type="button" \
+--control-group-identifier="com.finder.hidden.buttons" \
+--control-action="/usr/bin/defaults write com.apple.finder AppleShowAllFiles -bool FALSE & /usr/bin/killall Finder"
+
+echo run --package-path "/Volumes/Projects/Suitcase/" Suitcase \
+--name="Hidden Finder Settings" --window-title="Hidden Finder Settings" \
+--control-title="Hidden Files & Folders:" \
+--control-group-identifier="com.finder.hidden" \
+--control-type="label" \
+--control-title="unknown" \
+--control-group-identifier="com.finder.hidden" \
+--control-type="label" \
+--control-identifier="com.label.hidden.state" \
+--control-title=" 🔄 " \
+--control-group-identifier="com.finder.hidden" \
+--control-type="button" \
+--control-action="/usr/bin/defaults read com.apple.finder AppleShowAllFiles | /usr/bin/sed s/1/🟢Visable/g;s/0/🔴Hidden/g" \
+--control-action-destination="com.label.hidden.state" \
+--control-title="Enable" \
+--control-type="button" \
+--control-group-identifier="com.finder.hidden.buttons" \
+--control-action="/usr/bin/defaults write com.apple.finder AppleShowAllFiles -bool TRUE & /usr/bin/killall Finder" \
+--control-title="Disable" \
+--control-type="button" \
+--control-group-identifier="com.finder.hidden.buttons" \
+--control-action="/usr/bin/defaults write com.apple.finder AppleShowAllFiles -bool FALSE & /usr/bin/killall Finder"
+
+
+swift run --package-path "/Volumes/Projects/Suitcase/Projects/Suitcase/" Suitcase \
+--name="Hidden Finder Settings" --window-title="Hidden Finder Settings" \
+--control-title="Hidden Files & Folders:" \
+--control-group-identifier="com.finder.hidden" \
+--control-type="label" \
+--control-title="unknown" \
+--control-group-identifier="com.finder.hidden" \
+--control-type="label" \
+--control-identifier="com.label.hidden.state" \
+--control-title=" 🔄 " \
+--control-group-identifier="com.finder.hidden" \
+--control-type="button" \
+--control-action="/usr/bin/defaults read com.apple.finder AppleShowAllFiles | /usr/bin/sed s/1/🟢Visable/g;s/0/🔴Hidden/g" \
+--control-action-destination="com.label.hidden.state" \
+--control-title="Enable" \
+--control-type="button" \
+--control-group-identifier="com.finder.hidden.buttons" \
+--control-action="/usr/bin/defaults write com.apple.finder AppleShowAllFiles -bool TRUE & /usr/bin/killall Finder" \
+--control-title="Disable" \
+--control-type="button" \
+--control-group-identifier="com.finder.hidden.buttons" \
+--control-action="/usr/bin/defaults write com.apple.finder AppleShowAllFiles -bool FALSE & /usr/bin/killall Finder"
+
+
+swift run --package-path "/Volumes/Projects/Suitcase/Projects/Suitcase/" Suitcase --name="Hidden Finder Settings" --window-title="Hidden Finder Settings" --control-title=" 🔄 " --control-action="/usr/bin/defaults read com.apple.finder AppleShowAllFiles | /usr/bin/sed s/1/🟢Visable/g;s/0/🔴Hidden/g" 
+
+
+
+swift run --package-path "/Volumes/Projects/Suitcase/Projects/Suitcase/" Suitcase \
+--name="Hidden Finder Settings" --window-title="Hidden Finder Settings" \
+--control-title=" 🔄 " \
+--control-group-identifier="com.finder.hidden" \
+--control-type="button" \
+--control-action="/usr/bin/defaults read com.apple.finder AppleShowAllFiles | /usr/bin/sed s/1/🟢Visable/g;s/0/🔴Hidden/g" \
+--control-action-destination="com.label.hidden.state"
+
+swift run --package-path "/Volumes/Projects/Suitcase/Projects/Suitcase/" Suitcase \
+
+
+./Suitcase \
+--name="Hidden Finder Settings" --window-title="Hidden Finder Settings" \
+--control-title=" 🔄 " \
+--control-group-identifier="com.finder.hidden" \
+--control-type="button" \
+--control-action="/usr/bin/defaults read com.apple.finder AppleShowAllFiles | /usr/bin/sed s/1/🟢Visable/g;s/0/🔴Hidden/g" \
+--control-action-destination="com.label.hidden.state" \
+--control-title="Enable" \
+--control-type="button" \
+--control-group-identifier="com.finder.hidden.buttons" \
+--control-action="/usr/bin/defaults write com.apple.finder AppleShowAllFiles -bool TRUE & /usr/bin/killall Finder" \
+--control-title="Disable" \
+--control-type="button" \
+--control-group-identifier="com.finder.hidden.buttons" \
+--control-action="/usr/bin/defaults write com.apple.finder AppleShowAllFiles -bool FALSE & /usr/bin/killall Finder"
